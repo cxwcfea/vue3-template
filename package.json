@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue --fix --quiet src"
   },
   "dependencies": {
+    "element-plus": "^2.4.2",
     "vue": "^3.3.4"
   },
   "devDependencies": {
@@ -32,6 +33,8 @@
     "prettier": "^3.1.0",
     "typescript": "^5.0.2",
     "unocss": "^0.57.4",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-vue-components": "^0.25.2",
     "vite": "^4.4.5",
     "vite-plugin-eslint": "^1.8.1",
     "vue-tsc": "^1.8.5"
