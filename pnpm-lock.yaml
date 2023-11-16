@@ -16,6 +16,9 @@ devDependencies:
   '@commitlint/config-conventional':
     specifier: ^18.4.2
     version: registry.npmmirror.com/@commitlint/config-conventional@18.4.2
+  '@types/node':
+    specifier: ^20.9.0
+    version: registry.npmmirror.com/@types/node@20.9.0
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.11.0
     version: registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.11.0(@typescript-eslint/parser@6.11.0)(eslint@8.53.0)(typescript@5.2.2)
@@ -48,7 +51,7 @@ devDependencies:
     version: registry.npmmirror.com/typescript@5.2.2
   vite:
     specifier: ^4.4.5
-    version: registry.npmmirror.com/vite@4.5.0(@types/node@18.18.9)
+    version: registry.npmmirror.com/vite@4.5.0(@types/node@20.9.0)
   vue-tsc:
     specifier: ^1.8.5
     version: registry.npmmirror.com/vue-tsc@1.8.22(typescript@5.2.2)
@@ -694,6 +697,14 @@ packages:
       undici-types: registry.npmmirror.com/undici-types@5.26.5
     dev: true
 
+  registry.npmmirror.com/@types/node@20.9.0:
+    resolution: {integrity: sha512-nekiGu2NDb1BcVofVcEKMIwzlx4NjHlcjhoxxKBNLtz15Y1z7MYf549DFvkHSId02Ax6kGwWntIBPC3l/JZcmw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-20.9.0.tgz}
+    name: '@types/node'
+    version: 20.9.0
+    dependencies:
+      undici-types: registry.npmmirror.com/undici-types@5.26.5
+    dev: true
+
   registry.npmmirror.com/@types/normalize-package-data@2.4.4:
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/normalize-package-data/-/normalize-package-data-2.4.4.tgz}
     name: '@types/normalize-package-data'
@@ -874,7 +885,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: registry.npmmirror.com/vite@4.5.0(@types/node@18.18.9)
+      vite: registry.npmmirror.com/vite@4.5.0(@types/node@20.9.0)
       vue: registry.npmmirror.com/vue@3.3.8(typescript@5.2.2)
     dev: true
 
@@ -3623,7 +3634,7 @@ packages:
       spdx-expression-parse: registry.npmmirror.com/spdx-expression-parse@3.0.1
     dev: true
 
-  registry.npmmirror.com/vite@4.5.0(@types/node@18.18.9):
+  registry.npmmirror.com/vite@4.5.0(@types/node@20.9.0):
     resolution: {integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vite/-/vite-4.5.0.tgz}
     id: registry.npmmirror.com/vite/4.5.0
     name: vite
@@ -3654,7 +3665,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': registry.npmmirror.com/@types/node@18.18.9
+      '@types/node': registry.npmmirror.com/@types/node@20.9.0
       esbuild: registry.npmmirror.com/esbuild@0.18.20
       postcss: registry.npmmirror.com/postcss@8.4.31
       rollup: registry.npmmirror.com/rollup@3.29.4
