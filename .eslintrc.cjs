@@ -24,5 +24,11 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
+    'vue/multi-word-component-names': [
+      'error',
+      {
+        ignores: ['404'],
+      },
+    ],
   },
 };
