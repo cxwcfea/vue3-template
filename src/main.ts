@@ -6,6 +6,7 @@ import { useRouter } from './router';
 import '@/style/reset.css';
 import '@/style/index.less';
 import 'uno.css';
+import 'element-plus/dist/index.css';
 
 const app = createApp(App);
 

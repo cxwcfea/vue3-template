@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue --fix --quiet src"
   },
   "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.12",
     "@vueuse/core": "^10.6.1",
     "element-plus": "^2.4.2",
     "pinia": "^2.1.7",
