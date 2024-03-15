@@ -6,9 +6,9 @@ import vueJsx from '@vitejs/plugin-vue-jsx';
 import UnoCSS from 'unocss/vite';
 import presetUno from '@unocss/preset-uno';
 import presetAttributify from '@unocss/preset-attributify';
-import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
-import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
+import { VantResolver } from '@vant/auto-import-resolver';
+import postCssPxToRem from 'postcss-pxtorem';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -25,11 +25,8 @@ export default defineConfig({
     UnoCSS({
       presets: [presetUno(), presetAttributify()],
     }),
-    AutoImport({
-      resolvers: [ElementPlusResolver()],
-    }),
     Components({
-      resolvers: [ElementPlusResolver()],
+      resolvers: [VantResolver()],
     }),
   ],
   css: {
@@ -39,6 +36,14 @@ export default defineConfig({
           @import "@/style/variables.less";
         `,
       },
+    },
+    postcss: {
+      plugins: [
+        postCssPxToRem({
+          rootValue: 37.5,
+          propList: ['*'],
+        }),
+      ],
     },
   },
 });

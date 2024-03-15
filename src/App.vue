@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue';
-</script>
-
 <template>
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -15,7 +11,11 @@ import HelloWorld from '@/components/HelloWorld.vue';
   <router-view></router-view>
 </template>
 
-<style scoped>
+<script setup lang="ts">
+import HelloWorld from '@/components/HelloWorld.vue';
+</script>
+
+<style lang="less" scoped>
 .logo {
   height: 6em;
   padding: 1.5em;

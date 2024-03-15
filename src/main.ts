@@ -2,6 +2,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import { useStore } from './store';
 import { useRouter } from './router';
+import 'amfe-flexible';
 
 import '@/style/reset.css';
 import '@/style/index.less';

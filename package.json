@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.6.1",
-    "element-plus": "^2.4.2",
     "pinia": "^2.1.7",
+    "vant": "^4.8.5",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
   },
@@ -24,8 +24,10 @@
     "@typescript-eslint/eslint-plugin": "^6.11.0",
     "@unocss/preset-attributify": "^0.57.4",
     "@unocss/preset-uno": "^0.57.4",
+    "@vant/auto-import-resolver": "^1.0.2",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "amfe-flexible": "^2.2.1",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
@@ -33,6 +35,7 @@
     "husky": "^8.0.3",
     "less": "^4.2.0",
     "lint-staged": "^15.1.0",
+    "postcss-pxtorem": "^6.1.0",
     "prettier": "^3.1.0",
     "typescript": "^5.0.2",
     "unocss": "^0.57.4",

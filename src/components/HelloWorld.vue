@@ -1,8 +1,8 @@
 <template>
   <h1 text-gray-500>{{ msg }}</h1>
 
-  <div class="card">
-    <el-button type="primary" @click="counterStore.increment">count is {{ counterStore.count }}</el-button>
+  <div>
+    <van-button type="success" @click="counterStore.increment">count is {{ counterStore.count }}</van-button>
     <p class="read-the-docs">
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
